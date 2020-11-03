@@ -5,6 +5,6 @@ class BankAccount
     @name = name
     @balance = 1000
     @status = "open"
-    name.freeze
+    name = name.freeze
   end
 end
